@@ -1,0 +1,170 @@
+//First Programming - Hello World!
+public class Main{
+    public static void main(String args[]){
+        System.out.println("Hello World!");
+    }
+}
+
+-----------X-------------X-----------
+
+//Add two Strings
+public class Main{
+    public static void main(String args[]){
+        String firstName = "Khudaija ";
+        String lastName = "Pinjari";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
+    }
+}
+
+-----------X-------------X-----------
+
+//Arithmetic Operation 
+public class Main{
+    public static void main(String args[]){
+        int a = 4;
+        int b = 5;
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        
+        //Invalid Syntax
+        // System.out.println(ab);
+        
+        boolean isAdult = false;
+        System.out.println(isAdult);
+    }
+}
+
+-----------X-------------X-----------
+
+//++, -- Use 
+public class Main{
+    public static void main(String args[]){
+        int a = 4;
+        System.out.println(++a); //add then print 
+        System.out.println(a++); //print then add 
+        System.out.println(--a); //substract then print 
+        System.out.println(a--); //print then substract
+    }
+}
+
+-----------X-------------X-----------
+
+// take input and complete the name 
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println("My name is " + name);
+    }
+}
+
+-----------X-------------X-----------
+
+//if, else if, else
+public class Main{
+    public static void main(String args[]){
+        int n = 43;
+        if (n>0 && n<20){
+            System.out.println("less than 20");
+        }
+        else if(n>20){
+            System.out.println("greater than 20");
+        }
+        else{
+            System.out.println("less than zero");
+        }
+    }
+}
+
+-----------X-------------X-----------
+
+//Switch cases Problem
+public class Main{
+    public static void main(String args[]){
+        int day = 5;
+        switch(day){
+            case 1:
+                System.out.println("Monday");
+                break;
+                
+            case 2:
+                System.out.println("Tuesday");
+                break;
+                
+            case 3:
+                System.out.println("Wednesday");
+                break;
+                
+            case 4:
+                System.out.println("Thursday");
+                break;
+                
+            case 5:
+                System.out.println("Friday");
+                break;
+                
+            case 6:
+                System.out.println("Saturday");
+                break;
+                
+            case 7:
+                System.out.println("Sunday");
+                break;
+                
+            default:
+                System.out.println("Invalid Day");
+                
+                
+        }
+    }
+}
+
+-----------X-------------X-----------
+
+//for loop 
+// in this loop first declear initialization, condition  and updation in one line.
+public class Main{
+    public static void main(String args[]){
+        int n = 5;
+        for(int i=1; i<=n; i++ ){
+            System.out.println(i);
+        }
+    }
+}
+
+-----------X-------------X-----------
+
+//while loop 
+//In while loop we write initialization in code, then condition with while and lastley in while process we write updation...
+
+public class Main{
+    public static void main(String args[]){
+        int i=1;
+        while(i<11){
+            System.out.println(i);
+            i=i+1; //updation
+        }
+    }
+}
+
+-----------X-------------X-----------
+
+// do while loop
+//In do while loop we write initialization in code, then in loop process we write updation and last after closing break with while write condition. And do while loop is atleast one time play and then check condition.
+
+public class Main{
+    public static void main(String[] args){
+        int i=3;
+        do{
+            System.out.println(i);
+            ++i;
+        }while(i<0);
+    }
+}
+
+-----------X-------------X-----------
