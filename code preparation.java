@@ -113,3 +113,31 @@ public class Main{
 
 ------------------------------------------------------------
     
+//Count vowel and consonant
+
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        
+        String str = sc.nextLine();
+        str = str.toLowerCase();
+        char ch[] = str.toCharArray();
+        
+        int vowel = 0, consonant = 0;
+        
+        for(int i=0; i<ch.length; i++){
+            if(ch[i] == 'a' || ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u'){
+                vowel = vowel + 1;
+            }
+            else{
+                consonant = consonant + 1;
+            }
+        }
+        System.out.println("vowel " + vowel + "consonant" + consonant);
+    }
+}
+
+-------------------------------------------------------------------------------
+    
+ 
