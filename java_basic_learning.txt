@@ -52,6 +52,57 @@ public class Main{
 
 -----------X-------------X-----------
 
+// Find last digit of a number
+import java.util.*;
+
+public class FindLastDigitOfANumber {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int num = sc.nextInt();
+
+        int lastDigit = num % 10;
+        System.out.println("The last digit of the Number is " + lastDigit);
+    }
+}
+
+-----------X-------------X-----------
+
+//Swap two number using third variable
+public class swaptwonumber {
+    public static void main(String args[]) {
+        int a = 3;
+        int b = 4;
+        int temp;
+
+        temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
+
+-----------X-------------X-----------
+
+//Swap two number without third variable
+public class swaptwonumber_withoutthirdvariable {
+    public static void main(String args[]) {
+        int a = 3;
+        int b = 4;
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
+
+-----------X-------------X-----------
+
 // take input and complete the name 
 import java.util.Scanner;
 
@@ -77,6 +128,85 @@ public class Main{
         }
         else{
             System.out.println("less than zero");
+        }
+    }
+}
+
+-----------X-------------X-----------
+
+// Even Odd Number - Sample Code
+import java.util.*;
+
+public class EvenOddNumber {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int num = sc.nextInt();
+
+        if (num % 2 == 0) {
+            System.out.println(num + " is even number.");
+        } else {
+            System.out.println(num + " is odd number.");
+        }
+
+    }
+}
+
+-----------X-------------X-----------
+
+// Largest of three numbers
+import java.util.*;
+
+public class LargestOfThreeNumbers {
+    public static void main(String args[]) {
+        int x, y, z;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        x = sc.nextInt();
+        System.out.println("Enter the Second number: ");
+        y = sc.nextInt();
+        System.out.println("Enter the third number: ");
+        z = sc.nextInt();
+
+        if (x > y && x > z) {
+            System.out.println("Largest number is : " + x);
+        } else if (y > z) {
+            System.out.println("Largest number is : " + y);
+        } else {
+            System.out.println("Largest number is : " + z);
+        }
+
+    }
+}
+
+-----------X-------------X-----------
+
+//Leap Year
+import java.util.*;
+public class LeapYear {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the year: ");
+        int year = sc.nextInt();
+        boolean leap = false;
+
+        if (year % 4 == 0) {
+            if (year % 100 == 0) {
+                if (year % 400 == 0) {
+                    leap = true;
+                } else {
+                    leap = false;
+                }
+            } else {
+                leap = true;
+            }
+        } else {
+            leap = false;
+        }
+        if (leap) {
+            System.out.println(year + " is a leap year.");
+        } else {
+            System.out.println(year + " is not a leap year.");
         }
     }
 }
@@ -139,6 +269,45 @@ public class Main{
 
 -----------X-------------X-----------
 
+// Sum of N natural number
+import java.util.*;
+
+public class SumOfNNaturalNumber {
+    public static void main(String args[]) {
+        int sum = 0;
+        System.out.println("Enter the number : ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        for (int i = 0; i <= num; i++) {
+            sum = sum + i;
+        }
+        System.out.println("Sum of numbers : " + sum);
+    }
+
+}
+
+-----------X-------------X-----------
+
+// Table of A Number
+import java.util.*;
+
+public class TableOfANumber {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int num = sc.nextInt();
+
+        for (int i = 1; i <= 10; i++) {
+            int result = num * i;
+            System.out.println(num + " x " + i + " = " + result);
+        }
+    }
+}
+
+
+-----------X-------------X-----------
+
 //while loop 
 //In while loop we write initialization in code, then condition with while and lastley in while process we write updation...
 
@@ -149,6 +318,27 @@ public class Main{
             System.out.println(i);
             i=i+1; //updation
         }
+    }
+}
+
+-----------X-------------X-----------
+
+// Count Number
+import java.util.*;
+
+public class CountNumber {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int num = sc.nextInt();
+        int count = 0;
+
+        while (num != 0) {
+            num /= 10;
+            ++count;
+        }
+        System.out.println("Number of digits: " + count);
+
     }
 }
 
