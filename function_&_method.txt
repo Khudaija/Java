@@ -112,3 +112,30 @@ public class func_first_digit_number {
         System.out.println("First Digit is: " + firstDigit);
     }
 }
+
+-----------X-----------------------------X-----------
+
+// Function Problem Prime Factorization
+import java.util.*;
+public class func_prime_factorization {
+
+    public static void primeFactorization(int num) {
+        for (int i = 2; i < num; i++) {
+            while (num % i == 0) {
+                System.out.println(i + " ");
+                num = num / i;
+            }
+        }
+        if (num > 2) {
+            System.out.println(num);
+        }
+    }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Number: ");
+        int num = sc.nextInt();
+
+        primeFactorization(num);
+    }
+}
