@@ -93,3 +93,22 @@ public class Function{
         findFactorial(n);
     }
 }
+
+-----------X-----------------------------X-----------
+
+// Function Program - First Digit of a Number - Sample code
+
+import java.util.*;
+
+public class func_first_digit_number {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Number: ");
+        int num = sc.nextInt();
+        System.out.println("Given number is: " + num);
+        int firstDigit = 0;
+        int totalDigits = (int) Math.log10(num);
+        firstDigit = (int)(num/(int) Math.pow(10, totalDigits));
+        System.out.println("First Digit is: " + firstDigit);
+    }
+}
