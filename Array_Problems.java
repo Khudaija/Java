@@ -21,7 +21,6 @@ class Recursive_array_is_sorted_or_not {
         } else {
             System.out.println("No");
         }
-
     }
 }
 
@@ -52,7 +51,6 @@ public class iteration_array_is_sorted_or_not {
             System.out.println("No");
         }
     }
-
 }
 
 -----------X-----------------------------X-----------
@@ -100,7 +98,6 @@ public class array_sum {
     public static void main(String args[]) {
         System.out.println("Sum of given array is " + sum());
     }
-
 }
 
 -----------X-----------------------------X-----------
