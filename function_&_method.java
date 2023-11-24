@@ -17,7 +17,7 @@ public class Function{
     }
 }
 
------------X-----------------------------X-----------
+//-----------X-----------------------------X-----------
 
 //Function - Arithmatic operation applied by function
 import java.util.*;
@@ -42,7 +42,7 @@ public class Function{
     }
 }
 
------------X-----------------------------X-----------
+//-----------X-----------------------------X-----------
 
 //Function - It's look like different.
 
@@ -65,7 +65,7 @@ public class Function{
     }
 }
 
------------X-----------------------------X-----------
+//-----------X-----------------------------X-----------
 
 //Find the factorial to given input from the user.
 
@@ -94,7 +94,7 @@ public class Function{
     }
 }
 
------------X-----------------------------X-----------
+//-----------X-----------------------------X-----------
 
 // Function Program - First Digit of a Number - Sample code
 
@@ -113,7 +113,7 @@ public class func_first_digit_number {
     }
 }
 
------------X-----------------------------X-----------
+//-----------X-----------------------------X-----------
 
 // Function Problem Prime Factorization
 import java.util.*;
