@@ -5,7 +5,7 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //Add two Strings
 public class Main{
@@ -17,7 +17,7 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //Arithmetic Operation 
 public class Main{
@@ -37,7 +37,7 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //++, -- Use 
 public class Main{
@@ -50,7 +50,7 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 // Find last digit of a number
 import java.util.*;
@@ -66,7 +66,7 @@ public class FindLastDigitOfANumber {
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //Swap two number using third variable
 public class swaptwonumber {
@@ -84,7 +84,7 @@ public class swaptwonumber {
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //Swap two number without third variable
 public class swaptwonumber_withoutthirdvariable {
@@ -101,7 +101,7 @@ public class swaptwonumber_withoutthirdvariable {
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 // take input and complete the name 
 import java.util.Scanner;
@@ -114,7 +114,7 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //if, else if, else
 public class Main{
@@ -132,7 +132,7 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 // Even Odd Number - Sample Code
 import java.util.*;
@@ -152,7 +152,7 @@ public class EvenOddNumber {
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 // Largest of three numbers
 import java.util.*;
@@ -179,7 +179,7 @@ public class LargestOfThreeNumbers {
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //Leap Year
 import java.util.*;
@@ -211,7 +211,7 @@ public class LeapYear {
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //Switch cases Problem
 public class Main{
@@ -254,7 +254,7 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //for loop 
 // in this loop first declear initialization, condition  and updation in one line.
@@ -267,7 +267,7 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 // Sum of N natural number
 import java.util.*;
@@ -287,7 +287,7 @@ public class SumOfNNaturalNumber {
 
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 // Table of A Number
 import java.util.*;
@@ -306,7 +306,7 @@ public class TableOfANumber {
 }
 
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 //while loop 
 //In while loop we write initialization in code, then condition with while and lastley in while process we write updation...
@@ -321,7 +321,7 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 // Count Number
 import java.util.*;
@@ -342,10 +342,11 @@ public class CountNumber {
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
 
 // do while loop
-//In do while loop we write initialization in code, then in loop process we write updation and last after closing break with while write condition. And do while loop is atleast one time play and then check condition.
+//In do while loop we write initialization in code, then in loop process we write updation and last after closing break with while write condition. 
+//And do while loop is atleast one time play and then check condition.
 
 public class Main{
     public static void main(String[] args){
@@ -357,4 +358,4 @@ public class Main{
     }
 }
 
------------X-------------X-----------
+//-----------X-------------X-----------
