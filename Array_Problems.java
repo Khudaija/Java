@@ -24,7 +24,7 @@ class Recursive_array_is_sorted_or_not {
     }
 }
 
------------X-----------------------------X-----------
+//-----------X-----------------------------X-----------
 
 // Iterative Approach for Array is sorted or not
 
@@ -53,7 +53,7 @@ public class iteration_array_is_sorted_or_not {
     }
 }
 
------------X-----------------------------X-----------
+//-----------X-----------------------------X-----------
 
 //Maximum elment in Array - sample Code
 
@@ -78,7 +78,7 @@ public class maximum_array {
     }
 }
 
------------X-----------------------------X-----------
+//-----------X-----------------------------X-----------
 
 // Iterative  sum of elements in a given array - sample code 
 
@@ -100,7 +100,7 @@ public class array_sum {
     }
 }
 
------------X-----------------------------X-----------
+//-----------X-----------------------------X-----------
 
 // Average of array element
 
