@@ -20,6 +20,7 @@ public class Function{
 //-----------X-----------------------------X-----------
 
 //Function - Arithmatic operation applied by function
+
 import java.util.*;
 
 public class Function{
